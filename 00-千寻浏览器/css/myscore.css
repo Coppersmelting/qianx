@@ -1,0 +1,255 @@
+/*
+* @Author: kk
+* @Date:   2019-11-30 18:27:28
+* @Last Modified by:   kk
+* @Last Modified time: 2019-12-02 12:01:05
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+body{
+	font-size: 14px;
+	font-family: '微软雅黑','楷体';
+	color: #333;
+}
+i{
+	font-style: normal;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+      url('iconfont.woff2') format('woff2'),
+      url('iconfont.woff') format('woff'),
+      url('iconfont.ttf') format('truetype'),
+      url('iconfont.svg#iconfont') format('svg');
+}
+
+.nav{
+	height: 80px;
+	width: 100%;
+	box-shadow:0px 5px 5px #888888; 
+}
+.nav-left{
+	width: 245px;
+	height: 35px;
+	background-image: url('../images/sprite.png');
+	background-position: -27px 0px;
+	margin-top: 20px;
+	margin-left: 240px;
+	float: left;
+}
+.nav-right{
+	height: 80px;
+	width: 500px;
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+}
+.nav-right ul{
+	overflow: hidden;
+}
+.nav-right ul li{
+	float: left;
+	margin-left: 50px;
+	margin-top: 27px;
+	font-weight:bold;
+	font-size: 15px;
+}
+.nav-right ol{
+	overflow: hidden;
+	margin-top: 31px;
+	margin-left: 28px;
+}
+.nav-right ol li{
+	float: left;
+	width: 110px;
+	height: 2px;
+}
+.one{
+	background-color: #ff450d;
+}
+.two{
+	color: #ff450d ;
+}
+.content{
+	width: 1000px;
+	height: 1000px;
+	margin: 10px auto;
+}
+.con-top{
+	width: 1000px;
+	overflow: hidden;
+	/* background-color: red; */
+}
+.con-top .login{
+	width: 200px;
+	height: 218px;
+	box-shadow: 0px -5px 15px #888888;
+	float: left;
+	margin: 10px 5px;
+}
+
+.con-top .login .login-button{
+	margin:80px 0 20px 25px;
+}
+.con-top .login .login-button button{
+	width: 150px;
+	height: 40px;
+	background-color: #ff450d;
+	color: #fff;
+	border:none ;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: '微软雅黑','楷体';
+	box-shadow: 0px 2px 15px  #ff450d
+}
+.con-top .login .login-text{
+	margin-top: 30px;
+	color:#a6afb9;
+	text-align: center;
+}
+.con-top .login .login-text p i{
+	color: red;
+}
+.con-top .slider{
+	width: 747px;
+	height: 218px;
+	float: left;
+	margin: 10px 5px 5px 38px;
+	/* box-shadow: 0px -5px 15px #888888; */
+	position: relative;
+}
+.con-top .slider ul li{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	transition: 1s;
+}
+.con-top .slider ul li.show{
+	opacity: 1;
+}
+.con-top .slider ul li img{
+	width: 100%;
+}
+.con-top .slider .slide-left{
+	display: block;
+	position: absolute;
+	background-image: url('../images/sprite.png');
+	background-position: -240px 636px;
+	left: 0;
+	top: 100px;
+	width: 30px;
+	height: 50px;
+	cursor: pointer;
+}
+.con-top .slider .slide-right{
+	display: block;
+	position: absolute;
+	background-image: url('../images/sprite.png');
+	background-position: -240px 569px;
+	right: 0;
+	top: 100px;
+	width: 30px;
+	height: 50px;
+	cursor: pointer;
+}
+.cont{
+	width: 1000px;
+	height: 300px;
+	margin-top: 10px;
+	box-shadow: 0px -5px 15px #888888;
+}
+.con-con1{
+	overflow: hidden;
+}
+.yday{
+	float: left;
+	margin-top: 50px;
+	margin-left: 100px;
+	width: 200px;
+	height: 200px;
+	/* background-color: aqua; */
+	background-image: url('../images/circle.png');
+	text-align: center;
+}
+.yday p:nth-child(1){
+	font-size: 35px;
+	margin-top: 60px;
+	font-weight:bold;
+}
+.yday p:nth-child(1) i{
+	font-size: 20px;
+	font-weight: normal;
+}
+.yday p:nth-child(2){
+	margin-top: 45px;
+}
+.yday p:nth-child(2),.yday p:nth-child(3){
+	font-size: 14px;
+	color:#bbb;
+}
+.con2-top-lt{
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.con2-top-lt p{
+	float: left;
+	font-size: 18px;
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.con2-top-rg{
+	float: left;
+	width: 300px;
+}
+.con2-top-rg ul{
+	overflow: hidden;
+}
+.con2-top-rg ul li{
+	margin-top: 20px;
+	margin-left: 50px;
+	font-size: 18px;
+	float: left;
+	height: 30px;
+	cursor: pointer;
+}
+.con2-top-rg ul li:nth-child(1){
+	color: skyblue;
+	border-bottom: 1px solid skyblue;
+}
+.con2-bottom{
+	float: left;
+	width: 800px;
+	height: 100px;
+	margin-left: 100px;
+	margin-top: 120px;
+}
+.con2-bottom ul{
+	margin-top: 50px;
+	overflow: hidden;
+	border-top: 1px solid black;
+}
+.con2-bottom ul li{
+	float: left;
+	width: 80px;
+	text-align: center;
+}

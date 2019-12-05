@@ -1,0 +1,111 @@
+/*
+* @Author: kk
+* @Date:   2019-12-02 14:05:49
+* @Last Modified by:   kk
+* @Last Modified time: 2019-12-02 15:15:42
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+body{
+	font-size: 14px;
+	font-family: '微软雅黑','楷体';
+	color: #333;
+}
+i{
+	font-style: normal;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.nav{
+	height: 80px;
+	width: 100%;
+	box-shadow:0px 5px 5px #888888; 
+}
+.nav-left{
+	width: 245px;
+	height: 35px;
+	background-image: url('../images/sprite.png');
+	background-position: -27px 0px;
+	margin-top: 20px;
+	margin-left: 240px;
+	float: left;
+}
+.nav-right{
+	height: 80px;
+	width: 500px;
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+}
+.nav-right ul{
+	overflow: hidden;
+}
+.nav-right ul li{
+	float: left;
+	margin-left: 50px;
+	margin-top: 27px;
+	font-weight:bold;
+	font-size: 15px;
+}
+.nav-right ol{
+	overflow: hidden;
+	margin-top: 31px;
+	margin-left: 28px;
+}
+.nav-right ol li{
+	float: left;
+	width: 110px;
+	height: 2px;
+}
+.one{
+	background-color: #ff450d;
+}
+.two{
+	color: #ff450d ;
+}
+.content{
+	width: 1000px;
+	height: 800px;
+	margin: 10px auto;
+	/* background-color: pink; */
+}
+.rule-section{
+	margin-bottom:20px ;
+}
+.rule-section h2{
+	margin-bottom: 9px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.rule-section p{
+	line-height: 1.7;
+}
+.rule-grid{
+	margin-top: 6px;
+    border: solid 1px #d6dbe2;
+    background: #eff3f6;
+}
+.rule-grid thead{
+	font-weight: 700;
+    background: #e4e7eb;
+}
+.rule-grid th, .rule-grid td {
+    padding: 17px 0;
+    text-align: center;
+    border-bottom: solid 1px #d6dbe2;
+}
+.rule-notes {
+    font-size: 12px;
+    color: #aaabab;
+}

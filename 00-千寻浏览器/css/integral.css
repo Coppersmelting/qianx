@@ -1,0 +1,231 @@
+/*
+* @Author: kk
+* @Date:   2019-11-30 09:29:21
+* @Last Modified by:   kk
+* @Last Modified time: 2019-12-02 09:41:31
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+body{
+	font-size: 14px;
+	font-family: '微软雅黑','楷体';
+	color: #333;
+}
+i{
+	font-style: normal;
+}
+.nav{
+	height: 80px;
+	width: 100%;
+	box-shadow:0px 5px 5px #888888; 
+}
+.nav-left{
+	width: 245px;
+	height: 35px;
+	background-image: url('../images/sprite.png');
+	background-position: -27px 0px;
+	margin-top: 20px;
+	margin-left: 240px;
+	float: left;
+}
+.nav-right{
+	height: 80px;
+	width: 500px;
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+}
+.nav-right ul{
+	overflow: hidden;
+}
+.nav-right ul li{
+	float: left;
+	margin-left: 50px;
+	margin-top: 27px;
+	font-weight:bold;
+	font-size: 15px;
+}
+.nav-right ol{
+	overflow: hidden;
+	margin-top: 31px;
+	margin-left: 28px;
+}
+.nav-right ol li{
+	float: left;
+	width: 110px;
+	height: 2px;
+}
+.one{
+	background-color: #ff450d;
+}
+.two{
+	color: #ff450d ;
+}
+.content{
+	width: 1000px;
+	height: 1500px;
+	margin: 10px auto;
+}
+.con-top{
+	width: 1000px;
+	overflow: hidden;
+	/* background-color: red; */
+}
+.con-top .login{
+	width: 200px;
+	height: 218px;
+	box-shadow: 0px -5px 15px #888888;
+	float: left;
+	margin: 5px;
+}
+
+.con-top .login .login-button{
+	margin:80px 0 20px 25px;
+}
+.con-top .login .login-button button{
+	width: 150px;
+	height: 40px;
+	background-color: #3285fa;
+	color: #fff;
+	border:none ;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: '微软雅黑','楷体';
+	box-shadow: 0px 2px 15px #3285fa
+}
+.con-top .login .login-text{
+	margin-top: 30px;
+	color:#a6afb9;
+	text-align: center;
+}
+.con-top .login .login-text p i{
+	color: red;
+}
+.con-top .slider{
+	width: 747px;
+	height: 218px;
+	float: left;
+	margin: 5px 5px 5px 38px;
+	box-shadow: 0px -5px 15px #888888;
+	position: relative;
+}
+.con-top .slider ul li{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	transition: 1s;
+}
+.con-top .slider ul li.show{
+	opacity: 1;
+}
+.con-top .slider ul li img{
+	width: 100%;
+}
+.con-top .slider .slide-left{
+	display: block;
+	position: absolute;
+	background-image: url('../images/sprite.png');
+	background-position: -240px 636px;
+	left: 0;
+	top: 100px;
+	width: 30px;
+	height: 50px;
+	cursor: pointer;
+}
+.con-top .slider .slide-right{
+	display: block;
+	position: absolute;
+	background-image: url('../images/sprite.png');
+	background-position: -240px 569px;
+	right: 0;
+	top: 100px;
+	width: 30px;
+	height: 50px;
+	cursor: pointer;
+}
+.cont{
+	width: 1000px;
+	height: 300px;
+	margin-top: 10px;
+	box-shadow: 0px -5px 15px #888888;
+}
+.con-con1{
+	background-image: url('../images/new.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+ .con-con-lt{
+	width: 450px;
+	height: 250px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 25px;
+	border-right: 1px solid #ccc;
+	
+}
+ .con-con-lt ul{
+	overflow: hidden;
+}
+ .con-con-lt ul li{
+	margin-left: 40px;
+	margin-top: 20px;
+	float: left;
+}
+ .con-con-lt ul li p{
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-left: 10px;
+	float: right;
+}
+.con-con-rg{
+	width: 450px;
+	height: 280px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 15px;
+	/* background-color: pink; */
+}
+.con-con-rg ul{
+	overflow: hidden;
+}
+.con-con-rg ul li{
+	background-image: url('../images/prize.png');
+	background-size: 100% 100%;
+	width: 210px;
+	height: 280px;
+	float: left;
+}
+.con-con-rg ul li img{
+	padding-top: 11px;
+	padding-left: 20px;
+}
+.con-con-rg ul li p{
+	font-size: 25px;
+	padding-left: 70px;
+}
+.con-con-rg ul li p i{
+	font-size:10px;
+}
+.con-con2 .con-con-lt ul li{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.con-con2 .con-con-lt ul li:nth-child(2){
+	margin-left: 120px;
+}
+.con-con3 .con-con-lt ul li{
+	margin-left: 40px;
+	margin-top: 10px;
+}
